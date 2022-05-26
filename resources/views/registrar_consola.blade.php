@@ -1,4 +1,8 @@
 @extends('layouts.master')
+@section('title')
+LaravelConsoles - registrarConsola
+@endsection
+
 @section('content')
 <div class="mt-5 row">
   <div class="col-12 col-md-8 col-lg-5 mx-auto"> <!--mx-auto to auto center columns -->

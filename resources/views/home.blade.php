@@ -1,4 +1,8 @@
 @extends('layouts.master')
+@section('title')
+LaravelConsoles - Home
+@endsection
+
 @section('content')
   <div class="card mb-5">
     <div id="CardHeader" class="card-header text-center">
