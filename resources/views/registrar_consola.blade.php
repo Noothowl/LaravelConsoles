@@ -18,9 +18,7 @@ LaravelConsoles - registrarConsola
               <div class="mb-3">
                   <label for="brand-select" class="form-label">Marca</label>
                   <select id="brand-select" class="form-select">
-                      <option value="Microsoft">Microsoft</option>
-                      <option value="Sony">Sony</option>
-                      <option value="Nintendo">Nintendo</option>
+                      
                   </select>
               </div>
               <div class="mb-3">
@@ -34,4 +32,7 @@ LaravelConsoles - registrarConsola
       </div>
   </div>
 </div>
+@endsection
+@section('js')
+    <script src="{{asset('js/registrar_consola.js')}}"></script>
 @endsection
