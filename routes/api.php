@@ -20,3 +20,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('brands/get',[ConsolasController::class, "getBrands"]);
+
+Route::get('consoles/get',[ConsolasController::class,"getConsoles"]);
+
+Route::get('consoles/post',[ConsolasController::class, "createConsole"]);
+
